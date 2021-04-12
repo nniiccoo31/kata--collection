@@ -1,0 +1,36 @@
+html {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 50%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  border-bottom: solid 1px black;
+}
+
+.stamps {
+  display: flex;
+  border: solid 1px black;
+  height: 60px;
+  width: 60px;
+}

@@ -1,0 +1,87 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #00f5d4;
+  font-family: "sunflower", sans-serif;
+}
+
+.question {
+  font-size: 3rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "sunflower", sans-serif;
+  color: #f15bb5;
+}
+
+.title {
+  font-size: 3rem;
+  padding: 2rem 2rem;
+  color: #9b5de5;
+  font-family: "bungee shade", sans-serif;
+}
+
+.main {
+  text-align: center;
+  background-color: #fee440;
+  background-image: linear-gradient(#fee440, #00f5d4);
+  border-radius: 1rem;
+  margin: auto;
+  max-width: 120ch;
+}
+
+#next,
+#restart {
+  background-color: #9b5de5;
+  color: #fee440;
+  padding: 1rem 3rem;
+  margin-bottom: 1rem;
+  border: 0;
+  font-size: 1rem;
+  border-radius: 2rem;
+}
+
+#next:hover,
+#restart:hover {
+  background-color: #00bbf9;
+}
+
+#next::after {
+  content: " 🤓";
+}
+
+.footer {
+  margin-left: 2rem;
+  color: #9b5de5;
+  position: absolute;
+  bottom: 0px;
+}
+
+.header {
+  text-align: center;
+}
+
+.footer-quote::after {
+  content: "Nicolai 🦸‍♂️";
+}
+
+.footer:hover {
+  background-image: url("https://media1.tenor.com/images/b53a3ed38b2e43706fd57f6ff33ae1bd/tenor.gif?itemid=4164627");
+  padding-bottom: 6rem;
+  background-repeat: no-repeat;
+  color: #fee440;
+  background-size: 200px 130px;
+}
+
+#topic {
+  background-color: #fee440;
+  color: #f15bb5;
+  padding: 0.5rem;
+  width: 20rem;
+  font-family: "sunflower", sans-serif;
+  font-size: 1rem;
+  border-radius: 2rem;
+}
